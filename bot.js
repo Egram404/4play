@@ -286,7 +286,7 @@ client.on('ready', () => {
 client.user.setGame('EGRAM | 4play ','https://www.twitch.tv/idk');
 console.log('Logging into discord..');
 console.log(`
-By Ҝ€₥σ
+By EGRAM
 `);
 
 });
@@ -301,6 +301,6 @@ By Ҝ€₥σ
 
 
 client.on('ready',async () => {
-  client.channels.find(ch => ch.id === "524263156336558080" && ch.type === 'voice').join();
+  client.channels.find(ch => ch.id === "473244618067279872" && ch.type === 'voice').join();
 });
 client.login(process.env.BOT_TOKEN);
